@@ -8,7 +8,7 @@ from Myserver import server_on
 
 
 # ====== ตั้งค่า ======
-CHANNEL_ID = 1572657114256515072          # ไอดีของช่องที่ต้องการให้บอททำงาน
+CHANNEL_ID = 1572660389706207263          # ไอดีของช่องที่ต้องการให้บอททำงาน
 EXPIRE_AFTER = datetime.timedelta(hours=2)   # เวลาที่ต้องรอก่อนเปลี่ยน ✅ เป็น ❌
 LOOKBACK = datetime.timedelta(hours=48)      # ให้บอทตรวจย้อนหลังกี่ชั่วโมง (กันกรณีบอทปิดไปนาน)
 CHECK_INTERVAL_SECONDS = 60                  # ตรวจทุกกี่วินาที
